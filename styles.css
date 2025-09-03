@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #000;
+    font-family: 'Arial', sans-serif;
+}
+
+#canvas {
+    display: block;
+}
+
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.floating-heart {
+    position: absolute;
+    font-size: 1.2rem;
+    pointer-events: none;
+    opacity: 0.5;
+}
